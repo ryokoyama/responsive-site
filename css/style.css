@@ -1,14 +1,10 @@
 .picture{
-    width:"100%";
-    height: "500px"
-}
-
-.top-picture{
-     background-image src="./images/responsivesite.jpg" alt="コーヒーの写真" class="top-picture");
+  background-image: url("../images/responsivesite.jpg" );
   height: 500px;
   width: 100%;
   background-size: cover;
   background-position: center center;
+
 }
 
 #center-text {
@@ -80,8 +76,13 @@
 
 @media (max-width: 768px) {
   
-.top-picture{
-    height:250px;
+.picture{
+  background-image: url("../images/responsivesite.jpg" );
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+    
 }
 
   #center-text .container {
